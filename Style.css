@@ -1,0 +1,40 @@
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.formulario{
+    background-color: aquamarine;
+    width: min(60rem, 100%);
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.Campo_Codigo, 
+.Campo_Nombre, 
+.Campo_ApPat,
+.Campo_ApMat,
+.Campo_Direccion,
+.Campo_Teléfono,
+.Campo_Genero,
+.Campo_Nacionalidad,
+.Campo_Profesiones{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+
+.button{
+    text-align: center;
+}

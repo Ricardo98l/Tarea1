@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Datos Personales</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <h1>Formulario Para Datos Personales</h1>
+    <section class="contenedor ">
+        <form class="formulario" action="Servidor.php" method="post">
+            <fieldset>
+                <tr class="form">
+                    <div class="Campo_Codigo">
+                        <td>Codigo<br></td>
+                        <input type="text" name="txtCod" required>
+                    </div>
+    
+                    <div class="Campo_Nombre">
+                        <td>Nombre<br></td>
+                        <input type="text" class="input-text" name="txtNomb" required>
+                    </div>
+    
+                    <div class="Campo_ApPat">
+                        <td>Apellido Paterno<br></td>
+                        <input type="text" class="input-text" name="txtApPat" required>
+                    </div>
+    
+                    <div class="Campo_ApMat">
+                        <td>Apellido Materno<br></td>
+                        <input type="text" class="input-text" name="txtApMat" required>
+                    </div>
+    
+                    <div class="Campo_Direccion">
+                        <td>Dirección<br></td>
+                        <input type="text" class="input-text" name="txtDir" required>
+                    </div>
+    
+                    <div class="Campo_Teléfono">
+                        <td>Teléfono<br></td>
+                        <input type="text" class="input-text" name="txtTel" required>
+                    </div>
+    
+                    <div class="Campo_Genero">
+                        <td>Género</td>
+                        <input type="radio" class="input-text" name="rdGen" value="Femenino">Femenino
+                        <input type="radio" class="input-text" name="rdGen" value="Masculino">Masculino<br>
+                    </div>
+    
+                    <div class="Campo_Nacionalidad">
+                        <td>Nacionalidad<br></td>
+                        <select name="cbNac" class="input-text">
+                            <option value="Boliviano">Boliviano</option>
+                            <option value="Argentino">Argentino</option>
+                            <option value="Brasilero">Brasilero</option>
+                            <option value="Chileno">Chileno</option>
+                            <option value="Uruguayo">Uruguayo</option>
+                        </select>
+                    </div>
+    
+                    <div class="Campo_Profesiones">
+                        <td>Profesiones<br></td>
+                        <input type="checkbox" class="input-text" name="ckProfesion" value="Ing.Civil">Ing.Civil
+                        <input type="checkbox" class="input-text" name="ckProfesion" value="Ing.Sistemas">Ing.Sistemas
+                        <input type="checkbox" class="input-text" name="ckProfesion" value="Ing.Redes">Ing.Redes
+                    </div>
+                   
+                    <div class="button">
+                        <th colspan="2"><input type="submit" value="Mostrar"></th>
+                    </div>
+                    
+                </tr>
+            </fieldset>
+        </form>
+    </section>
+    </h2>
+</body>
+
+</html>
